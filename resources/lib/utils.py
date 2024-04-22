@@ -31,7 +31,7 @@ def getSetting(name):
     return __Addon.getSetting(name)
 
 def getSettingStringStripped(name):
-    return __Addon.getSettingString(name)
+    return __Addon.getSettingString(name).strip()
 
 def getSettingBool(name):
     return bool(__Addon.getSettingBool(name))
